@@ -20,7 +20,8 @@ async function bootstrap() {
     .setContact('Harmony Alabi', '', 'harmonizerblinks@gmail.com')
     .setTermsOfService('https://github.com/harmonizerblinks/Basic-TypeScript-Api')
     .setLicense('MIT','https://github.com/harmonizerblinks/Basic-TypeScript-Api')
-    .addTag('Payment')
+    .addTag('Auth')
+    .addTag('Integration')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('swagger', app, document);
